@@ -1,0 +1,7 @@
+<h2>Login</h2>
+<img src="http://localhost:8080/img/emblem.jpeg">
+<form [formGroup]="loginForm">
+  <input formControlName="username">
+  <input formControlName="password">
+  <button (click)="submit()">Авторизация</button>
+</form>
